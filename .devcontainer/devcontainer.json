@@ -1,0 +1,13 @@
+{
+    "name": "Tech Jam",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "runArgs": [
+        "--name", "tech-jam"
+    ],
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {},
+        "ghcr.io/devcontainers/features/github-cli:1": {}
+    }
+}
